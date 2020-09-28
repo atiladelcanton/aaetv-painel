@@ -1,0 +1,9 @@
+.light_version .metismenu a{
+  font-weight: normal;
+}
+.light_version #left-sidebar .navbar-brand{
+  border-color:transparent;
+}
+.user-account .dropdown .dropdown-menu{
+  left: -50px !important;
+}
