@@ -1,7 +1,7 @@
 <?php
 
 
-use App\ZenTicket\Models\Module;
+use App\ZenSolutions\Models\Module;
 use Illuminate\Database\Seeder;
 
 class Modules extends Seeder
