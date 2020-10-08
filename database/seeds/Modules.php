@@ -3,6 +3,7 @@
 
 use App\ZenSolutions\Models\Module;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Str;
 
 class Modules extends Seeder
 {
@@ -16,7 +17,7 @@ class Modules extends Seeder
         Module::create(
             [
                 'name' => 'Grupos',
-                'slug' => str_slug('Grupos'),
+                'slug' => Str::slug('Grupos'),
                 'icon' => 'icon-users',
 
             ]
@@ -24,7 +25,7 @@ class Modules extends Seeder
         Module::create(
             [
                 'name' => 'Usuários',
-                'slug' => str_slug('Usuários'),
+                'slug' => Str::slug('Usuários'),
                 'icon' => 'icon-user',
 
             ]
@@ -32,7 +33,7 @@ class Modules extends Seeder
         Module::create(
             [
                 'name' => 'Clientes',
-                'slug' => str_slug('clientes'),
+                'slug' => Str::slug('clientes'),
                 'icon' => 'icon-screen-desktop',
 
             ]
